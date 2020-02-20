@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44c3608e-88b2-4d5e-935d-0c6f29f79f76">
+  <producedTypes>
+    <objectType typeId="44ce25cd-4be4-42b2-9341-f7f68bdb5244" valueTypeId="bbbb149e-b6e9-4061-bd50-749002a50fcf"/>
+    <refType typeId="cdadf9b9-17a2-4e1d-816d-08803f35280d" valueTypeId="a21163b4-9d74-4f07-9ad0-afe314608b94"/>
+    <selectionType typeId="073562fd-c741-4a13-9c8a-3466bb7ca976" valueTypeId="fdf0dd78-d7e9-495c-b6c4-af4a8b639f47"/>
+    <listType typeId="d0c4008d-8106-4233-9d17-c27725c2f6c1" valueTypeId="06c5f91e-aedd-4e7e-b151-98c60871e917"/>
+    <managerType typeId="95e4c8cb-f587-4cb5-97ca-c64d84733f8f" valueTypeId="5b5419a6-e2b9-4480-acd0-9225a8c61a53"/>
+  </producedTypes>
+  <name>Клиенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Клиенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Клиенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Клиенты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="3b324fdd-573e-442e-b3e7-c17a96f35c4f">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="19c8d188-65ec-4582-ab5b-d1f869715a2f">
+    <name>ФИОполучателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ф.И.О. получателя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ab927b4d-fdda-43eb-b00e-9dee62bb4ecc">
+    <name>ТелПолучателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тел. получателя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="79822978-b879-4c8c-9674-95b65cb438e6">
+    <name>УровеньКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень клиента</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УровеньКлиента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="447459f5-8549-49c4-9143-b6277aed2687">
+    <name>ВремяОбеда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время обеда</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

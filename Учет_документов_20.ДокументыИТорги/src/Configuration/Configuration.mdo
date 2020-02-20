@@ -48,6 +48,14 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <catalogs>Catalog.СпособыЗакупки</catalogs>
+  <catalogs>Catalog.ВидыПлощадокДляТоргов</catalogs>
+  <catalogs>Catalog.РегионыОказанияУслуг</catalogs>
+  <catalogs>Catalog.Конкуренты</catalogs>
+  <catalogs>Catalog.ПодаркиДляКлиентов</catalogs>
+  <catalogs>Catalog.НашиСотрудники</catalogs>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
   <enums>Enum.СостоянияЗакупки</enums>
   <enums>Enum.УсловияОказанияКонсультаций</enums>
   <enums>Enum.ПричиныПроигрышаТоргов</enums>
