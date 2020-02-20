@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b38a1868-7255-411f-9372-4e922174582e">
+  <producedTypes>
+    <refType typeId="0d424c90-bb31-46da-b830-06646c02b16e" valueTypeId="467d9379-4681-4d89-8263-6596db746daf"/>
+    <listType typeId="d6fc125e-8579-4e6a-8c5d-cdcd2b1abb90" valueTypeId="c7d7b21b-955f-4806-8c36-f487b9396d2e"/>
+    <managerType typeId="36002bec-7835-47dc-b290-2bfe7dc84b0d" valueTypeId="90c4149d-c7aa-4369-b551-8daeb177925b"/>
+  </producedTypes>
+  <name>УсловияОказанияКонсультаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Условия оказания консультаций</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c8b34eda-78b6-49e3-9a36-4f85d0da4158">
+    <name>ТолькоУдаленно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только удаленно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2e3cf84c-2ca9-42ae-b1dd-9670f659e649">
+    <name>ТолькоСВыездомКЗаказчику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только с выездом к заказчику</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fc68d52e-0377-4b35-a982-8869e68aafaf">
+    <name>УдаленноИПоНеобходимостиСВыездом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаленно и по необходимости с выездом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c5eb3a41-2dba-422b-9be2-c845bfd3dcf0">
+    <name>Неизвестно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неизвестно</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

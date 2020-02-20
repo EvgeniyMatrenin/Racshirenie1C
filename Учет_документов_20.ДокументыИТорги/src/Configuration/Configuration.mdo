@@ -48,4 +48,8 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <enums>Enum.СостоянияЗакупки</enums>
+  <enums>Enum.УсловияОказанияКонсультаций</enums>
+  <enums>Enum.ПричиныПроигрышаТоргов</enums>
+  <enums>Enum.УровеньКлиента</enums>
 </mdclass:Configuration>
