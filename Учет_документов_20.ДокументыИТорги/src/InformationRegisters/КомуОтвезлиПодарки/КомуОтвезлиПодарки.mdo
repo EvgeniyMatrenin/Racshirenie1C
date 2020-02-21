@@ -105,6 +105,57 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="aca0e456-8010-42ac-b349-1458564922de">
+    <name>ДокументыРазвозил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документы развозил</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НашиСотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a80279a9-e069-4a04-8917-42e5917ce896">
+    <name>ДатаПроверкиПодарков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата проверки подарков</value>
+    </synonym>
+    <comment>Надо проверить отвозили ли этому клиенту подарок до определенной даты</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="22bd7428-8ab2-43d0-b89e-4853706081a5">
+    <name>ВремяРазвозитьПодарки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время развозить подарки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <dimensions uuid="a2cf3eb2-975e-4199-8193-b87e6c6137b8">
     <name>ПолучательДокументов</name>
     <synonym>
