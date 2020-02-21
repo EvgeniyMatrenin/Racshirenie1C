@@ -56,8 +56,12 @@
   <catalogs>Catalog.НашиСотрудники</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <documents>Document.ТОРГИ</documents>
   <enums>Enum.СостоянияЗакупки</enums>
   <enums>Enum.УсловияОказанияКонсультаций</enums>
   <enums>Enum.ПричиныПроигрышаТоргов</enums>
   <enums>Enum.УровеньКлиента</enums>
+  <informationRegisters>InformationRegister.ТоргиВРаботе</informationRegisters>
+  <informationRegisters>InformationRegister.ДанныеОСтоимостиЧасаНаТоргах</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОборотыПоТоргам</accumulationRegisters>
 </mdclass:Configuration>
