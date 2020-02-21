@@ -60,6 +60,7 @@
   <catalogs>Catalog.Пользователи</catalogs>
   <documents>Document.ТОРГИ</documents>
   <documents>Document.ОтправкаПочты</documents>
+  <documents>Document.Расш1_ВедомостьПередачиДокументов</documents>
   <enums>Enum.СостоянияЗакупки</enums>
   <enums>Enum.УсловияОказанияКонсультаций</enums>
   <enums>Enum.ПричиныПроигрышаТоргов</enums>
@@ -67,5 +68,7 @@
   <informationRegisters>InformationRegister.ТоргиВРаботе</informationRegisters>
   <informationRegisters>InformationRegister.ДанныеОСтоимостиЧасаНаТоргах</informationRegisters>
   <informationRegisters>InformationRegister.ДоставкаДокументовКурьером</informationRegisters>
+  <informationRegisters>InformationRegister.КомуОтвезлиПодарки</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОборотыПоТоргам</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОборотыПоПодаркам</accumulationRegisters>
 </mdclass:Configuration>
