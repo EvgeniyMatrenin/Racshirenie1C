@@ -48,6 +48,8 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Расш1_АРМ</subsystems>
+  <commonPictures>CommonPicture.Расш1_АРМ</commonPictures>
   <catalogs>Catalog.СпособыЗакупки</catalogs>
   <catalogs>Catalog.ВидыПлощадокДляТоргов</catalogs>
   <catalogs>Catalog.РегионыОказанияУслуг</catalogs>
@@ -57,11 +59,13 @@
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <documents>Document.ТОРГИ</documents>
+  <documents>Document.ОтправкаПочты</documents>
   <enums>Enum.СостоянияЗакупки</enums>
   <enums>Enum.УсловияОказанияКонсультаций</enums>
   <enums>Enum.ПричиныПроигрышаТоргов</enums>
   <enums>Enum.УровеньКлиента</enums>
   <informationRegisters>InformationRegister.ТоргиВРаботе</informationRegisters>
   <informationRegisters>InformationRegister.ДанныеОСтоимостиЧасаНаТоргах</informationRegisters>
+  <informationRegisters>InformationRegister.ДоставкаДокументовКурьером</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОборотыПоТоргам</accumulationRegisters>
 </mdclass:Configuration>
