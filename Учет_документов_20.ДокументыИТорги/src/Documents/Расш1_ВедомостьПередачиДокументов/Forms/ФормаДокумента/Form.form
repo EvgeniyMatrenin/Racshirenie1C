@@ -534,6 +534,10 @@
           <segments>Объект.ТЧ_СписокРазвоза.ПолучательДокументов</segments>
         </paths>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ТЧ_СписокРазвозаПолучательДокументовПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ТЧ_СписокРазвозаПолучательДокументовРасширеннаяПодсказка</name>
         <id>46</id>
