@@ -50,6 +50,7 @@
   </languages>
   <subsystems>Subsystem.Расш1_АРМ</subsystems>
   <commonPictures>CommonPicture.Расш1_АРМ</commonPictures>
+  <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
   <catalogs>Catalog.СпособыЗакупки</catalogs>
   <catalogs>Catalog.ВидыПлощадокДляТоргов</catalogs>
   <catalogs>Catalog.РегионыОказанияУслуг</catalogs>
@@ -65,6 +66,12 @@
   <enums>Enum.УсловияОказанияКонсультаций</enums>
   <enums>Enum.ПричиныПроигрышаТоргов</enums>
   <enums>Enum.УровеньКлиента</enums>
+  <reports>Report.КомуОтвезлиДокументы</reports>
+  <reports>Report.КомуОтвезлиПодарки</reports>
+  <reports>Report.КаковаНашаДоля</reports>
+  <reports>Report.КаковаНашаДоляДиаграмма</reports>
+  <reports>Report.ТоргиВРаботе</reports>
+  <reports>Report.КаковаСитуацияСоСтоимостьюЧасаНаТоргах</reports>
   <informationRegisters>InformationRegister.ТоргиВРаботе</informationRegisters>
   <informationRegisters>InformationRegister.ДанныеОСтоимостиЧасаНаТоргах</informationRegisters>
   <informationRegisters>InformationRegister.ДоставкаДокументовКурьером</informationRegisters>

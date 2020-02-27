@@ -13,4 +13,10 @@
   <content>Document.ТОРГИ</content>
   <content>Document.ОтправкаПочты</content>
   <content>Document.Расш1_ВедомостьПередачиДокументов</content>
+  <content>Report.КомуОтвезлиДокументы</content>
+  <content>Report.КомуОтвезлиПодарки</content>
+  <content>Report.КаковаНашаДоля</content>
+  <content>Report.КаковаНашаДоляДиаграмма</content>
+  <content>Report.ТоргиВРаботе</content>
+  <content>Report.КаковаСитуацияСоСтоимостьюЧасаНаТоргах</content>
 </mdclass:Subsystem>
