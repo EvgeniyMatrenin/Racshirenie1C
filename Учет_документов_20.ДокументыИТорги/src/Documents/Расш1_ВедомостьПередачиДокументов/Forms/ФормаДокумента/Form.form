@@ -590,10 +590,6 @@
           <segments>Объект.ТЧ_СписокРазвоза.НомераАктов</segments>
         </paths>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ТЧ_СписокРазвозаНомераАктовПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ТЧ_СписокРазвозаНомераАктовРасширеннаяПодсказка</name>
         <id>49</id>
@@ -646,10 +642,6 @@
           <segments>Объект.ТЧ_СписокРазвоза.НомераУПД</segments>
         </paths>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ТЧ_СписокРазвозаНомераУПДПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ТЧ_СписокРазвозаНомераУПДРасширеннаяПодсказка</name>
         <id>52</id>
@@ -702,10 +694,6 @@
           <segments>Объект.ТЧ_СписокРазвоза.НомераДоговоров</segments>
         </paths>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ТЧ_СписокРазвозаНомераДоговоровПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ТЧ_СписокРазвозаНомераДоговоровРасширеннаяПодсказка</name>
         <id>55</id>
@@ -758,10 +746,6 @@
           <segments>Объект.ТЧ_СписокРазвоза.ЛУРВы</segments>
         </paths>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ТЧ_СписокРазвозаЛУРВыПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ТЧ_СписокРазвозаЛУРВыРасширеннаяПодсказка</name>
         <id>58</id>
@@ -807,10 +791,6 @@
           <segments>Объект.ТЧ_СписокРазвоза.КомплектПоставки</segments>
         </paths>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ТЧ_СписокРазвозаКомплектПоставкиПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ТЧ_СписокРазвозаКомплектПоставкиРасширеннаяПодсказка</name>
         <id>61</id>
@@ -856,10 +836,6 @@
           <segments>Объект.ТЧ_СписокРазвоза.СводныйАкт</segments>
         </paths>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ТЧ_СписокРазвозаСводныйАктПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ТЧ_СписокРазвозаСводныйАктРасширеннаяПодсказка</name>
         <id>64</id>
@@ -905,10 +881,6 @@
           <segments>Объект.ТЧ_СписокРазвоза.АктСверки</segments>
         </paths>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ТЧ_СписокРазвозаАктСверкиПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ТЧ_СписокРазвозаАктСверкиРасширеннаяПодсказка</name>
         <id>67</id>
@@ -954,10 +926,6 @@
           <segments>Объект.ТЧ_СписокРазвоза.СпециальнаяДоставка</segments>
         </paths>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ТЧ_СписокРазвозаСпециальнаяДоставкаПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ТЧ_СписокРазвозаСпециальнаяДоставкаРасширеннаяПодсказка</name>
         <id>70</id>
@@ -1010,10 +978,6 @@
           <segments>Объект.ТЧ_СписокРазвоза.Подарок1</segments>
         </paths>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ТЧ_СписокРазвозаПодарок1ПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ТЧ_СписокРазвозаПодарок1РасширеннаяПодсказка</name>
         <id>73</id>
@@ -1059,10 +1023,6 @@
           <segments>Объект.ТЧ_СписокРазвоза.Подарок2</segments>
         </paths>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ТЧ_СписокРазвозаПодарок2ПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ТЧ_СписокРазвозаПодарок2РасширеннаяПодсказка</name>
         <id>76</id>
@@ -1108,10 +1068,6 @@
           <segments>Объект.ТЧ_СписокРазвоза.Подарок3</segments>
         </paths>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ТЧ_СписокРазвозаПодарок3ПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ТЧ_СписокРазвозаПодарок3РасширеннаяПодсказка</name>
         <id>79</id>
@@ -1198,18 +1154,20 @@
     </items>
     <items xsi:type="form:FormField">
       <name>ТЧ_СписокРазвозаАдрес</name>
-      <id>101</id>
+      <id>83</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ТЧ_СписокРазвоза.Адрес</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.ТЧ_СписокРазвоза.Адрес</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
-        <name>РасширеннаяПодсказка</name>
-        <id>103</id>
+        <name>ТЧ_СписокРазвозаАдресРасширеннаяПодсказка</name>
+        <id>85</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1223,8 +1181,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>КонтекстноеМеню</name>
-        <id>102</id>
+        <name>ТЧ_СписокРазвозаАдресКонтекстноеМеню</name>
+        <id>84</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1233,7 +1191,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
-      <editMode>Enter</editMode>
+      <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
@@ -1465,10 +1423,6 @@
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
-    <handlers>
-      <event>OnChange</event>
-      <name>ТЧ_СписокРазвозаПолучательДокументовПриИзменении</name>
-    </handlers>
     <searchStringAddition>
       <visible>true</visible>
       <enabled>true</enabled>

@@ -26,6 +26,7 @@
   <defaultObjectForm>Document.Расш1_ВедомостьПередачиДокументов.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.ОборотыПоПодаркам</registerRecords>
   <registerRecords>InformationRegister.КомуОтвезлиПодарки</registerRecords>
+  <registerRecords>InformationRegister.ДоставкаДокументовКурьером</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="7679b953-6b2a-4935-8e45-d0a0a193f4b7">
