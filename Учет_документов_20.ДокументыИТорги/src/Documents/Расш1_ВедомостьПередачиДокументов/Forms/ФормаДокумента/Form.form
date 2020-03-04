@@ -590,6 +590,10 @@
           <segments>Объект.ТЧ_СписокРазвоза.НомераАктов</segments>
         </paths>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ТЧ_СписокРазвозаНомераАктовПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ТЧ_СписокРазвозаНомераАктовРасширеннаяПодсказка</name>
         <id>49</id>
@@ -642,6 +646,10 @@
           <segments>Объект.ТЧ_СписокРазвоза.НомераУПД</segments>
         </paths>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ТЧ_СписокРазвозаНомераУПДПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ТЧ_СписокРазвозаНомераУПДРасширеннаяПодсказка</name>
         <id>52</id>
@@ -694,6 +702,10 @@
           <segments>Объект.ТЧ_СписокРазвоза.НомераДоговоров</segments>
         </paths>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ТЧ_СписокРазвозаНомераДоговоровПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ТЧ_СписокРазвозаНомераДоговоровРасширеннаяПодсказка</name>
         <id>55</id>
@@ -746,6 +758,10 @@
           <segments>Объект.ТЧ_СписокРазвоза.ЛУРВы</segments>
         </paths>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ТЧ_СписокРазвозаЛУРВыПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ТЧ_СписокРазвозаЛУРВыРасширеннаяПодсказка</name>
         <id>58</id>
@@ -791,6 +807,10 @@
           <segments>Объект.ТЧ_СписокРазвоза.КомплектПоставки</segments>
         </paths>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ТЧ_СписокРазвозаКомплектПоставкиПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ТЧ_СписокРазвозаКомплектПоставкиРасширеннаяПодсказка</name>
         <id>61</id>
@@ -836,6 +856,10 @@
           <segments>Объект.ТЧ_СписокРазвоза.СводныйАкт</segments>
         </paths>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ТЧ_СписокРазвозаСводныйАктПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ТЧ_СписокРазвозаСводныйАктРасширеннаяПодсказка</name>
         <id>64</id>
@@ -881,6 +905,10 @@
           <segments>Объект.ТЧ_СписокРазвоза.АктСверки</segments>
         </paths>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ТЧ_СписокРазвозаАктСверкиПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ТЧ_СписокРазвозаАктСверкиРасширеннаяПодсказка</name>
         <id>67</id>
@@ -926,6 +954,10 @@
           <segments>Объект.ТЧ_СписокРазвоза.СпециальнаяДоставка</segments>
         </paths>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ТЧ_СписокРазвозаСпециальнаяДоставкаПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ТЧ_СписокРазвозаСпециальнаяДоставкаРасширеннаяПодсказка</name>
         <id>70</id>
@@ -978,6 +1010,10 @@
           <segments>Объект.ТЧ_СписокРазвоза.Подарок1</segments>
         </paths>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ТЧ_СписокРазвозаПодарок1ПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ТЧ_СписокРазвозаПодарок1РасширеннаяПодсказка</name>
         <id>73</id>
@@ -1023,6 +1059,10 @@
           <segments>Объект.ТЧ_СписокРазвоза.Подарок2</segments>
         </paths>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ТЧ_СписокРазвозаПодарок2ПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ТЧ_СписокРазвозаПодарок2РасширеннаяПодсказка</name>
         <id>76</id>
@@ -1068,6 +1108,10 @@
           <segments>Объект.ТЧ_СписокРазвоза.Подарок3</segments>
         </paths>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ТЧ_СписокРазвозаПодарок3ПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ТЧ_СписокРазвозаПодарок3РасширеннаяПодсказка</name>
         <id>79</id>
