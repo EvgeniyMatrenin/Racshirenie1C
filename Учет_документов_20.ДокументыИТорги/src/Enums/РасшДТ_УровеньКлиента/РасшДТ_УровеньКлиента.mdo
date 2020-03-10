@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c17e7e26-9ba9-49e3-b088-c4cdd4e0ef28">
+  <producedTypes>
+    <refType typeId="0a4ef7a6-575f-4997-b84c-a2d72278cce1" valueTypeId="0031af31-2308-4a0c-8450-2df59a41db5a"/>
+    <listType typeId="67fb1262-4c98-43f4-9a9c-6eb5ef63ba3b" valueTypeId="4dcd9415-781c-4492-aab9-040d37cf8475"/>
+    <managerType typeId="a4935c17-cd28-48fc-ad72-dc0e9cb30b6e" valueTypeId="bd0e9e67-c136-425a-b46c-5528186f20e0"/>
+  </producedTypes>
+  <name>РасшДТ_УровеньКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расш д т уровень клиента</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b0c0a19a-762b-499c-b692-b7444ac4df23">
+    <name>ПотенциальныйКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Потенциальный клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a5612c6b-297e-422b-9455-a657facf4e89">
+    <name>ОбычныйКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обычный клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="303f8bc9-b850-43a8-a5e9-e7cf8ced7567">
+    <name>ВИПКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВИП Клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="54268bba-dafa-4d89-a98b-34e0b6f0a9d2">
+    <name>СуперВИПКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Супер ВИП Клиент</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

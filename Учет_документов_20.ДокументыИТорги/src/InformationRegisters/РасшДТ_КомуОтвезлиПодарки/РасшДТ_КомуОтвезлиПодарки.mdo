@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e026e89-b1d2-4931-9fbd-bea53a46e977">
+  <producedTypes>
+    <selectionType typeId="2d230420-ae67-4188-9617-d503f2c386ad" valueTypeId="837be866-1362-4180-84d7-7ef513bf20c8"/>
+    <listType typeId="6490cf8b-866d-4bd3-8612-475d487652fd" valueTypeId="c0ffc74b-86c8-4437-8566-f1bed5718460"/>
+    <managerType typeId="7b737f94-dc5b-4ac8-a045-d08f31047af1" valueTypeId="21c200a4-3777-477d-abed-d501d0f11137"/>
+    <recordSetType typeId="4f93c153-e3f0-447f-911d-eb345f800595" valueTypeId="beef02a8-1926-477f-9b7b-4704fac37b84"/>
+    <recordKeyType typeId="e997a0f8-cc52-40f3-8570-66b5fd27a8aa" valueTypeId="27b5cfca-cad7-4eaa-9377-ce8f43fa4e46"/>
+    <recordType typeId="8cb29aaa-74be-4fb7-9d28-b3b7114e2a6a" valueTypeId="739f2de4-3140-45d7-8c4d-4dd6e0e62b58"/>
+    <recordManagerType typeId="580b210b-1a2f-4879-993f-ba5154031c0a" valueTypeId="66af07d9-342b-4f31-8cae-b84b2587af52"/>
+  </producedTypes>
+  <name>РасшДТ_КомуОтвезлиПодарки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кому отвезли подарки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="85f14bba-e41b-43b9-9b72-3c2a207d8f65">
+    <name>Подарок1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подарок1</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РасшДТ_ПодаркиДляКлиентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="4179d016-7841-4a79-8077-f2974ecdfb8f">
+    <name>Подарок1Булево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подарок1 булево</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="03dbdc7b-de66-4bf4-b1d5-259fbe313740">
+    <name>Подарок2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подарок2</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РасшДТ_ПодаркиДляКлиентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="e01b64d3-167a-4b4c-8817-d0b59a10aa8c">
+    <name>Подарок2Булево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подарок2 булево</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0a75cf75-d0e1-4adb-a8da-e627044ee090">
+    <name>Подарок3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подарок3</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РасшДТ_ПодаркиДляКлиентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="27d0d175-b17d-421e-bb81-f9f966ae521a">
+    <name>Подарок3Булево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подарок3 булево</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="aca0e456-8010-42ac-b349-1458564922de">
+    <name>ДокументыРазвозил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документы развозил</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РасшДТ_НашиСотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a80279a9-e069-4a04-8917-42e5917ce896">
+    <name>ДатаПроверкиПодарков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата проверки подарков</value>
+    </synonym>
+    <comment>Надо проверить отвозили ли этому клиенту подарок до определенной даты</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="22bd7428-8ab2-43d0-b89e-4853706081a5">
+    <name>ВремяРазвозитьПодарки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время развозить подарки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a2cf3eb2-975e-4199-8193-b87e6c6137b8">
+    <name>ПолучательДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель документов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РасшДТ_Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </dimensions>
+</mdclass:InformationRegister>

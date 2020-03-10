@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2226b05d-7f84-4493-be66-33ac136b54dd">
+  <producedTypes>
+    <objectType typeId="ee7e1807-defd-4784-a82b-df874db4a930" valueTypeId="4c0cf5e2-3bc2-4107-8fa4-809f0512888b"/>
+    <managerType typeId="5fb7b426-831e-47ac-8370-b27927ce0991" valueTypeId="864f4aad-19c8-4b97-a45a-3846213f37ff"/>
+  </producedTypes>
+  <name>РасшДТ_КомуОтвезлиПодарки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кому отвезли подарки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.РасшДТ_КомуОтвезлиПодарки.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <settingsStorage>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorage>
+  <templates uuid="b88455da-96a9-460f-9847-b08275cc3fa3">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

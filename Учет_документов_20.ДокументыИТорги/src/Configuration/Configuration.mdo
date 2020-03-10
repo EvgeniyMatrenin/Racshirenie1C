@@ -23,7 +23,7 @@
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="c97068a1-94cf-4da3-8fba-a3447722a668"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="9513fa42-0a38-46a0-a17f-d62514f33a12"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="549eafeb-5a95-47da-9e1e-e269464b7138"/>
-  <namePrefix>Расш1_</namePrefix>
+  <namePrefix>РасшДТ_</namePrefix>
   <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
@@ -48,34 +48,34 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.Расш1_АРМ</subsystems>
-  <commonPictures>CommonPicture.Расш1_АРМ</commonPictures>
+  <subsystems>Subsystem.РасшДТ_АРМ</subsystems>
+  <commonPictures>CommonPicture.РасшДТ_АРМ</commonPictures>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
-  <catalogs>Catalog.СпособыЗакупки</catalogs>
-  <catalogs>Catalog.ВидыПлощадокДляТоргов</catalogs>
-  <catalogs>Catalog.РегионыОказанияУслуг</catalogs>
-  <catalogs>Catalog.Конкуренты</catalogs>
-  <catalogs>Catalog.ПодаркиДляКлиентов</catalogs>
-  <catalogs>Catalog.НашиСотрудники</catalogs>
-  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.РасшДТ_СпособыЗакупки</catalogs>
+  <catalogs>Catalog.РасшДТ_ВидыПлощадокДляТоргов</catalogs>
+  <catalogs>Catalog.РасшДТ_РегионыОказанияУслуг</catalogs>
+  <catalogs>Catalog.РасшДТ_Конкуренты</catalogs>
+  <catalogs>Catalog.РасшДТ_ПодаркиДляКлиентов</catalogs>
+  <catalogs>Catalog.РасшДТ_НашиСотрудники</catalogs>
+  <catalogs>Catalog.РасшДТ_Клиенты</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
-  <documents>Document.ТОРГИ</documents>
-  <documents>Document.ОтправкаПочты</documents>
-  <documents>Document.Расш1_ВедомостьПередачиДокументов</documents>
-  <enums>Enum.СостоянияЗакупки</enums>
-  <enums>Enum.УсловияОказанияКонсультаций</enums>
-  <enums>Enum.ПричиныПроигрышаТоргов</enums>
-  <enums>Enum.УровеньКлиента</enums>
-  <reports>Report.КомуОтвезлиДокументы</reports>
-  <reports>Report.КомуОтвезлиПодарки</reports>
-  <reports>Report.КаковаНашаДоля</reports>
-  <reports>Report.КаковаНашаДоляДиаграмма</reports>
-  <reports>Report.ТоргиВРаботе</reports>
-  <reports>Report.КаковаСитуацияСоСтоимостьюЧасаНаТоргах</reports>
-  <informationRegisters>InformationRegister.ТоргиВРаботе</informationRegisters>
-  <informationRegisters>InformationRegister.ДанныеОСтоимостиЧасаНаТоргах</informationRegisters>
-  <informationRegisters>InformationRegister.ДоставкаДокументовКурьером</informationRegisters>
-  <informationRegisters>InformationRegister.КомуОтвезлиПодарки</informationRegisters>
-  <accumulationRegisters>AccumulationRegister.ОборотыПоТоргам</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.ОборотыПоПодаркам</accumulationRegisters>
+  <documents>Document.РасшДТ_ТОРГИ</documents>
+  <documents>Document.РасшДТ_ОтправкаПочты</documents>
+  <documents>Document.РасшДТ_ВедомостьПередачиДокументов</documents>
+  <enums>Enum.РасшДТ_СостоянияЗакупки</enums>
+  <enums>Enum.РасшДТ_УсловияОказанияКонсультаций</enums>
+  <enums>Enum.РасшДТ_ПричиныПроигрышаТоргов</enums>
+  <enums>Enum.РасшДТ_УровеньКлиента</enums>
+  <reports>Report.РасшДТ_КомуОтвезлиДокументы</reports>
+  <reports>Report.РасшДТ_КомуОтвезлиПодарки</reports>
+  <reports>Report.РасшДТ_КаковаНашаДоля</reports>
+  <reports>Report.РасшДТ_КаковаНашаДоляДиаграмма</reports>
+  <reports>Report.РасшДТ_ТоргиВРаботе</reports>
+  <reports>Report.РасшДТ_КаковаСитуацияСоСтоимостьюЧасаНаТоргах</reports>
+  <informationRegisters>InformationRegister.РасшДТ_ТоргиВРаботе</informationRegisters>
+  <informationRegisters>InformationRegister.РасшДТ_ДанныеОСтоимостиЧасаНаТоргах</informationRegisters>
+  <informationRegisters>InformationRegister.РасшДТ_ДоставкаДокументовКурьером</informationRegisters>
+  <informationRegisters>InformationRegister.РасшДТ_КомуОтвезлиПодарки</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.РасшДТ_ОборотыПоТоргам</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.РасшДТ_ОборотыПоПодаркам</accumulationRegisters>
 </mdclass:Configuration>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f25ed830-a052-48d1-ac59-7715368767a0">
+  <name>РасшДТ_АРМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РасшДТ_АРМ</picture>
+  </picture>
+  <content>Document.РасшДТ_ТОРГИ</content>
+  <content>Document.РасшДТ_ОтправкаПочты</content>
+  <content>Document.РасшДТ_ВедомостьПередачиДокументов</content>
+  <content>Report.РасшДТ_КомуОтвезлиДокументы</content>
+  <content>Report.РасшДТ_КомуОтвезлиПодарки</content>
+  <content>Report.РасшДТ_КаковаНашаДоля</content>
+  <content>Report.РасшДТ_КаковаНашаДоляДиаграмма</content>
+  <content>Report.РасшДТ_ТоргиВРаботе</content>
+  <content>Report.РасшДТ_КаковаСитуацияСоСтоимостьюЧасаНаТоргах</content>
+</mdclass:Subsystem>

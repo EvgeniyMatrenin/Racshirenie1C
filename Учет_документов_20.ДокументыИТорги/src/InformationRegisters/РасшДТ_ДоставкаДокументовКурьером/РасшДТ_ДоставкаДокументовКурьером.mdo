@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d21f91c6-6d0a-4454-a435-1dfe7dac70ec">
+  <producedTypes>
+    <selectionType typeId="daef5dd7-4408-42aa-9540-30ddb9b0748b" valueTypeId="d8a962e4-ecbd-4a91-9863-48875cc104d5"/>
+    <listType typeId="25bd44d8-cb6f-46b9-9098-65a28c4db529" valueTypeId="64200c3f-0092-4a1d-b567-eb01ecd7a670"/>
+    <managerType typeId="37249795-a27d-43f2-9557-d3dbcad9e63d" valueTypeId="1e4f4263-ddeb-40bf-af17-553de9283b96"/>
+    <recordSetType typeId="8a5fc89a-7b2a-4300-b8ef-f186be330bfa" valueTypeId="8db045ff-c3a5-4f62-a491-176fffa990c8"/>
+    <recordKeyType typeId="3c5b4fa7-86c6-4046-99b8-0677a2525969" valueTypeId="fdb89268-1fc4-45a0-b17f-4dfa3ab91d71"/>
+    <recordType typeId="5f8bbcc8-f948-4d27-b5d7-d0c24080bd69" valueTypeId="2b70e146-22a9-4aaa-925b-625b6025d2cd"/>
+    <recordManagerType typeId="46885911-8d43-4107-832b-175c8382eeb6" valueTypeId="eb206c82-1f9a-4ad9-8040-5fb3f00ce85d"/>
+  </producedTypes>
+  <name>РасшДТ_ДоставкаДокументовКурьером</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доставка документов курьером</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="86db4908-6416-458b-a642-a3f75fd659d7">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="9348ee58-bdda-4b08-b811-e2b57bd669c9">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7f05dbfd-b9c8-4952-9bb4-1c6993e6fd07">
+    <name>АвторДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор документа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </dimensions>
+  <dimensions uuid="1005c2dd-e7c2-4bb8-9e9f-bb548e1203db">
+    <name>ПолучательДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель документов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РасшДТ_Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </dimensions>
+</mdclass:InformationRegister>

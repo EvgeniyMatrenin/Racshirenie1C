@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a947eb1-a2aa-409a-ad75-da9d9703d109">
+  <producedTypes>
+    <objectType typeId="05591667-655d-4b54-be35-d0c8b7a15c2c" valueTypeId="454ea471-2e2d-4de1-963e-75e71c3d6dda"/>
+    <refType typeId="3afc9d17-c9fe-4a1b-97c7-34fcb0003c8e" valueTypeId="7b700b94-b728-403c-acfd-41b795ba4991"/>
+    <selectionType typeId="b7042f36-8e2a-437c-92a6-309cf49c46bf" valueTypeId="af4b1021-e2f9-4607-ba6c-c2461ec4a186"/>
+    <listType typeId="69be3d98-3dd5-48be-863f-2b5a68a680b7" valueTypeId="15b1d8f5-211a-45d7-8d12-c7d882078fa6"/>
+    <managerType typeId="b36b5af3-d0c7-4f2d-b239-95a27dc87a7f" valueTypeId="e840c60b-bceb-4362-bb12-4ec7ec8cf6dc"/>
+  </producedTypes>
+  <name>РасшДТ_СпособыЗакупки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы закупки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РасшДТ_СпособыЗакупки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РасшДТ_СпособыЗакупки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4dd6f1a4-f7fc-4c74-9219-8f56aed6109e">
+  <producedTypes>
+    <objectType typeId="b40ad6fb-8251-4c9d-96e5-d5dcd01b39bc" valueTypeId="1e6b5992-eaa0-4f94-98ff-2d6d1f08200b"/>
+    <managerType typeId="bd9ce67d-0e7e-4518-8ea4-4db265068447" valueTypeId="51ba3052-9542-4ccf-af66-13a66c372a2b"/>
+  </producedTypes>
+  <name>РасшДТ_КаковаНашаДоляДиаграмма</name>
+  <synonym>
+    <key>ru</key>
+    <value>Какова наша доля диаграмма</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.РасшДТ_КаковаНашаДоляДиаграмма.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <settingsStorage>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorage>
+  <templates uuid="c89bd54f-fec5-4390-aee5-76dc9e59df36">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
