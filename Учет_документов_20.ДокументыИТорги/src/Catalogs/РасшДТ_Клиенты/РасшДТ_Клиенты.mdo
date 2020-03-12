@@ -10,7 +10,7 @@
   <name>РасшДТ_Клиенты</name>
   <synonym>
     <key>ru</key>
-    <value>Расш д т клиенты</value>
+    <value>Клиенты</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.РасшДТ_Клиенты.StandardAttribute.Code</inputByString>
@@ -124,4 +124,17 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <templates uuid="468dc3ca-82aa-463e-8f96-6ffe724fa857">
+    <name>ПечатьЭтикеткиНаЯщик</name>
+  </templates>
+  <commands uuid="c8ba020e-cc3f-412c-bca8-8384bf4b84bc">
+    <name>ПечатьЭтикеткиНаЯщик</name>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.РасшДТ_Клиенты</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
 </mdclass:Catalog>

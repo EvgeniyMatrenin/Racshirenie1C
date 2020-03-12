@@ -19,4 +19,5 @@
   <content>Report.РасшДТ_КаковаНашаДоляДиаграмма</content>
   <content>Report.РасшДТ_ТоргиВРаботе</content>
   <content>Report.РасшДТ_КаковаСитуацияСоСтоимостьюЧасаНаТоргах</content>
+  <subsystems>НСИ</subsystems>
 </mdclass:Subsystem>
