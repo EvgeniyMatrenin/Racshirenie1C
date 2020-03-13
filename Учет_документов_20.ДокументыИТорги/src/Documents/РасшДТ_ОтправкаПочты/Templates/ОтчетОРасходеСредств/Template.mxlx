@@ -152,7 +152,6 @@
 	</rowsItem>
 	<rowsItem>
 		<index>2</index>
-		<indexTo>3</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
@@ -329,7 +328,7 @@
 			</c>
 			<c>
 				<c>
-					<f>23</f>
+					<f>20</f>
 					<parameter>ОсталосьПотратитьНаПочтовыеРасходы</parameter>
 				</c>
 			</c>
@@ -355,11 +354,11 @@
 	<rowsItem>
 		<index>13</index>
 		<row>
-			<formatIndex>24</formatIndex>
+			<formatIndex>23</formatIndex>
 			<c>
 				<i>5</i>
 				<c>
-					<f>25</f>
+					<f>24</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -377,7 +376,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>26</f>
+					<f>25</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -388,7 +387,7 @@
 			</c>
 			<c>
 				<c>
-					<f>27</f>
+					<f>26</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -399,7 +398,7 @@
 			</c>
 			<c>
 				<c>
-					<f>27</f>
+					<f>26</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -410,7 +409,7 @@
 			</c>
 			<c>
 				<c>
-					<f>27</f>
+					<f>26</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -421,7 +420,7 @@
 			</c>
 			<c>
 				<c>
-					<f>27</f>
+					<f>26</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -439,31 +438,31 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>28</f>
+					<f>27</f>
 					<parameter>НомерСтроки</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>28</f>
 					<parameter>ДатаОтправкиПисьма</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>30</f>
+					<f>29</f>
 					<parameter>ПолучательДокументов</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>30</f>
+					<f>29</f>
 					<parameter>ОписьСодержимогоКонверта</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>31</f>
+					<f>30</f>
 					<parameter>Сумма</parameter>
 				</c>
 			</c>
@@ -471,7 +470,6 @@
 	</rowsItem>
 	<rowsItem>
 		<index>16</index>
-		<indexTo>17</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
@@ -499,7 +497,7 @@
 			<c>
 				<i>10</i>
 				<c>
-					<f>32</f>
+					<f>31</f>
 				</c>
 			</c>
 		</row>
@@ -522,7 +520,7 @@
 			<c>
 				<i>10</i>
 				<c>
-					<f>33</f>
+					<f>32</f>
 					<parameter>ПисьмаОтправил</parameter>
 				</c>
 			</c>
@@ -552,8 +550,8 @@
 			<type>Rows</type>
 			<beginRow>1</beginRow>
 			<endRow>1</endRow>
-			<beginColumn>0</beginColumn>
-			<endColumn>0</endColumn>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
 			<columnsID>55573801-9597-4ff5-a752-1a8063f83a56</columnsID>
 		</area>
 	</namedItem>
@@ -563,8 +561,8 @@
 			<type>Rows</type>
 			<beginRow>15</beginRow>
 			<endRow>15</endRow>
-			<beginColumn>0</beginColumn>
-			<endColumn>0</endColumn>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
 			<columnsID>3bc10b6a-426b-4ba7-a45a-c57df31d86c0</columnsID>
 		</area>
 	</namedItem>
@@ -574,8 +572,8 @@
 			<type>Rows</type>
 			<beginRow>13</beginRow>
 			<endRow>14</endRow>
-			<beginColumn>0</beginColumn>
-			<endColumn>0</endColumn>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -584,8 +582,8 @@
 			<type>Rows</type>
 			<beginRow>18</beginRow>
 			<endRow>20</endRow>
-			<beginColumn>0</beginColumn>
-			<endColumn>0</endColumn>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -594,8 +592,8 @@
 			<type>Rows</type>
 			<beginRow>4</beginRow>
 			<endRow>10</endRow>
-			<beginColumn>0</beginColumn>
-			<endColumn>0</endColumn>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
 			<columnsID>42e11d38-02e7-460b-a73f-c73ca2375cfd</columnsID>
 		</area>
 	</namedItem>
@@ -712,7 +710,7 @@
 			<v8:Type>xs:decimal</v8:Type>
 			<v8:NumberQualifiers>
 				<v8:Digits>10</v8:Digits>
-				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:FractionDigits>2</v8:FractionDigits>
 				<v8:AllowedSign>Any</v8:AllowedSign>
 			</v8:NumberQualifiers>
 		</valueType>
@@ -720,6 +718,10 @@
 			<v8:item>
 				<v8:lang>#</v8:lang>
 				<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧДЦ=2</v8:content>
 			</v8:item>
 		</format>
 		<autoIndent>0</autoIndent>
@@ -739,33 +741,7 @@
 		<format>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
-				<v8:content/>
-			</v8:item>
-		</format>
-		<autoIndent>0</autoIndent>
-	</format>
-	<format>
-		<horizontalAlignment>Left</horizontalAlignment>
-		<verticalAlignment>Top</verticalAlignment>
-		<textPlacement>Block</textPlacement>
-		<fillType>Parameter</fillType>
-		<containsValue>true</containsValue>
-		<valueType>
-			<v8:Type>xs:decimal</v8:Type>
-			<v8:NumberQualifiers>
-				<v8:Digits>10</v8:Digits>
-				<v8:FractionDigits>0</v8:FractionDigits>
-				<v8:AllowedSign>Any</v8:AllowedSign>
-			</v8:NumberQualifiers>
-		</valueType>
-		<format>
-			<v8:item>
-				<v8:lang>#</v8:lang>
-				<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
-			</v8:item>
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content/>
+				<v8:content></v8:content>
 			</v8:item>
 		</format>
 		<autoIndent>0</autoIndent>
@@ -852,7 +828,7 @@
 			<v8:Type>xs:decimal</v8:Type>
 			<v8:NumberQualifiers>
 				<v8:Digits>10</v8:Digits>
-				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:FractionDigits>2</v8:FractionDigits>
 				<v8:AllowedSign>Any</v8:AllowedSign>
 			</v8:NumberQualifiers>
 		</valueType>
