@@ -72,6 +72,7 @@
   <reports>Report.РасшДТ_КаковаНашаДоляДиаграмма</reports>
   <reports>Report.РасшДТ_ТоргиВРаботе</reports>
   <reports>Report.РасшДТ_КаковаСитуацияСоСтоимостьюЧасаНаТоргах</reports>
+  <dataProcessors>DataProcessor.ЗагрузкаДанныхИзФайла</dataProcessors>
   <informationRegisters>InformationRegister.РасшДТ_ТоргиВРаботе</informationRegisters>
   <informationRegisters>InformationRegister.РасшДТ_ДанныеОСтоимостиЧасаНаТоргах</informationRegisters>
   <informationRegisters>InformationRegister.РасшДТ_ДоставкаДокументовКурьером</informationRegisters>

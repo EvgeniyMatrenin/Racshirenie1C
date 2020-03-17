@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7303ae87-0edf-4087-a58f-9291dc9280d1">
+  <producedTypes>
+    <objectType typeId="03435536-a945-408f-aecc-f754038bc009" valueTypeId="0d6968a8-fe07-41c7-8819-c51ab36e3bc0"/>
+    <managerType typeId="426d9bdd-7425-45e2-9e6d-b0b6c28109a5" valueTypeId="3cf72b1f-9e8b-440b-8c47-4d9401d50ade"/>
+  </producedTypes>
+  <name>ЗагрузкаДанныхИзФайла</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>
