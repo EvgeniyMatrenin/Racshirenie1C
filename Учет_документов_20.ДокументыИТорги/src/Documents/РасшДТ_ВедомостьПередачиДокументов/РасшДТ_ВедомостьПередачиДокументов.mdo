@@ -24,6 +24,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.РасшДТ_ВедомостьПередачиДокументов.Form.ФормаДокумента</defaultObjectForm>
+  <realTimePosting>Deny</realTimePosting>
   <registerRecords>AccumulationRegister.РасшДТ_ОборотыПоПодаркам</registerRecords>
   <registerRecords>InformationRegister.РасшДТ_КомуОтвезлиПодарки</registerRecords>
   <registerRecords>InformationRegister.РасшДТ_ДоставкаДокументовКурьером</registerRecords>
