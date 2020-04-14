@@ -59,6 +59,7 @@
   <catalogs>Catalog.РасшДТ_НашиСотрудники</catalogs>
   <catalogs>Catalog.РасшДТ_Клиенты</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.СтроковыеКонтактыВзаимодействий</catalogs>
   <documents>Document.РасшДТ_ТОРГИ</documents>
   <documents>Document.РасшДТ_ОтправкаПочты</documents>
   <documents>Document.РасшДТ_ВедомостьПередачиДокументов</documents>
