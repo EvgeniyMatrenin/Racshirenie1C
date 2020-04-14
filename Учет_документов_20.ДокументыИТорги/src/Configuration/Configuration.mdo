@@ -62,6 +62,7 @@
   <documents>Document.РасшДТ_ТОРГИ</documents>
   <documents>Document.РасшДТ_ОтправкаПочты</documents>
   <documents>Document.РасшДТ_ВедомостьПередачиДокументов</documents>
+  <documentJournals>DocumentJournal.Взаимодействия</documentJournals>
   <enums>Enum.РасшДТ_СостоянияЗакупки</enums>
   <enums>Enum.РасшДТ_УсловияОказанияКонсультаций</enums>
   <enums>Enum.РасшДТ_ПричиныПроигрышаТоргов</enums>

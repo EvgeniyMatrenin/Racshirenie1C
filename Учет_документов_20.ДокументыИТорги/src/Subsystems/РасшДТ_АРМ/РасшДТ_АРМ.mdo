@@ -20,5 +20,6 @@
   <content>Report.РасшДТ_ТоргиВРаботе</content>
   <content>Report.РасшДТ_КаковаСитуацияСоСтоимостьюЧасаНаТоргах</content>
   <content>DataProcessor.ЗагрузкаДанныхИзФайла</content>
+  <content>DocumentJournal.Взаимодействия</content>
   <subsystems>НСИ</subsystems>
 </mdclass:Subsystem>
