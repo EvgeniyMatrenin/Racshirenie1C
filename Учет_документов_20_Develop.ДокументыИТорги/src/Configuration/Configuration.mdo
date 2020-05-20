@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d47e2544-e1af-45cc-8585-9169bb0d4ce6">
+  <name>ДокументыИТорги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы и торги</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <modalityUseMode>Checked</modalityUseMode>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultStyle>Extended</defaultStyle>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="34bb1a12-691d-414c-acd8-7418299afb4c"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="e1dc8b0d-ad6c-4d4c-839c-73632c32ab12"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="649dfec4-a7e3-4195-be51-f98c5eaf714d"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="c97068a1-94cf-4da3-8fba-a3447722a668"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="9513fa42-0a38-46a0-a17f-d62514f33a12"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="549eafeb-5a95-47da-9e1e-e269464b7138"/>
+  <namePrefix>РасшДТ_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <version>1.0.1.1</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>UseWithWarnings</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.14</compatibilityMode>
+  <languages uuid="1681dd2e-aa07-4a39-af2d-38381cb13f91">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.РасшДТ_АРМ</subsystems>
+  <commonPictures>CommonPicture.РасшДТ_АРМ</commonPictures>
+  <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
+  <catalogs>Catalog.РасшДТ_СпособыЗакупки</catalogs>
+  <catalogs>Catalog.РасшДТ_ВидыПлощадокДляТоргов</catalogs>
+  <catalogs>Catalog.РасшДТ_РегионыОказанияУслуг</catalogs>
+  <catalogs>Catalog.РасшДТ_Конкуренты</catalogs>
+  <catalogs>Catalog.РасшДТ_ПодаркиДляКлиентов</catalogs>
+  <catalogs>Catalog.РасшДТ_НашиСотрудники</catalogs>
+  <catalogs>Catalog.РасшДТ_Клиенты</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.СтроковыеКонтактыВзаимодействий</catalogs>
+  <documents>Document.РасшДТ_ТОРГИ</documents>
+  <documents>Document.РасшДТ_ОтправкаПочты</documents>
+  <documents>Document.РасшДТ_ВедомостьПередачиДокументов</documents>
+  <documentJournals>DocumentJournal.Взаимодействия</documentJournals>
+  <enums>Enum.РасшДТ_СостоянияЗакупки</enums>
+  <enums>Enum.РасшДТ_УсловияОказанияКонсультаций</enums>
+  <enums>Enum.РасшДТ_ПричиныПроигрышаТоргов</enums>
+  <enums>Enum.РасшДТ_УровеньКлиента</enums>
+  <reports>Report.РасшДТ_КомуОтвезлиДокументы</reports>
+  <reports>Report.РасшДТ_КомуОтвезлиПодарки</reports>
+  <reports>Report.РасшДТ_КаковаНашаДоля</reports>
+  <reports>Report.РасшДТ_КаковаНашаДоляДиаграмма</reports>
+  <reports>Report.РасшДТ_ТоргиВРаботе</reports>
+  <reports>Report.РасшДТ_КаковаСитуацияСоСтоимостьюЧасаНаТоргах</reports>
+  <dataProcessors>DataProcessor.ЗагрузкаДанныхИзФайла</dataProcessors>
+  <informationRegisters>InformationRegister.РасшДТ_ТоргиВРаботе</informationRegisters>
+  <informationRegisters>InformationRegister.РасшДТ_ДанныеОСтоимостиЧасаНаТоргах</informationRegisters>
+  <informationRegisters>InformationRegister.РасшДТ_ДоставкаДокументовКурьером</informationRegisters>
+  <informationRegisters>InformationRegister.РасшДТ_КомуОтвезлиПодарки</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.РасшДТ_ОборотыПоТоргам</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.РасшДТ_ОборотыПоПодаркам</accumulationRegisters>
+</mdclass:Configuration>

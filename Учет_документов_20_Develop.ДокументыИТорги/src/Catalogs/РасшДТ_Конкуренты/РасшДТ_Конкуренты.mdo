@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2926ffd-c484-4d72-b4fd-42d830bf5ef1">
+  <producedTypes>
+    <objectType typeId="4c901d54-c094-429f-8373-fb5c9d43b2c9" valueTypeId="0ad10128-9072-4080-8294-54b65ccad87d"/>
+    <refType typeId="1f5dfc29-6571-452d-987d-ea55f62d4067" valueTypeId="f6b5edcf-8a89-464a-8a54-6f10bee350c0"/>
+    <selectionType typeId="88351961-bd1f-4fbf-85e7-67c244113e3e" valueTypeId="9a43dc72-af19-405c-9d4d-6170dd2b8624"/>
+    <listType typeId="a6563594-e50e-4a08-8aff-cda40bfacb0f" valueTypeId="9007859f-20f7-4fe4-a181-16e8886d9936"/>
+    <managerType typeId="7fdd86b6-9eff-44d7-bbc0-756c8ba30c66" valueTypeId="efe31042-25cb-4b3d-ad32-5ac0985b8643"/>
+  </producedTypes>
+  <name>РасшДТ_Конкуренты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конкуренты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РасшДТ_Конкуренты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РасшДТ_Конкуренты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

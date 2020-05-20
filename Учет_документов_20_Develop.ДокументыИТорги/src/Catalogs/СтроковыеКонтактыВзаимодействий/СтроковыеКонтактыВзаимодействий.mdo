@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fe5f7ff1-acfc-45cc-898a-7af280c096a9">
+  <producedTypes>
+    <objectType typeId="a8bc636b-e900-45db-a834-1c50da43c224" valueTypeId="742445f4-496c-46f2-aedf-e409b076d5fe"/>
+    <refType typeId="a3ebceb1-a825-4ee8-8fba-19cf0f2224de" valueTypeId="409d959c-0afd-4e53-afb2-3a4fcbebfc1a"/>
+    <selectionType typeId="be14554f-2005-4958-abc9-475693695c81" valueTypeId="182916cf-2fb2-40b9-aaf3-d1ff5dda714a"/>
+    <listType typeId="e07df43c-68ad-47a3-82eb-8739ae249996" valueTypeId="69fd6c6d-d1a4-43c5-a766-ac7b041cd25a"/>
+    <managerType typeId="56a2a985-6738-40cc-9624-d747cf8effeb" valueTypeId="32043ab7-8b7f-4b57-9f9e-bd8da4ad7c33"/>
+  </producedTypes>
+  <name>СтроковыеКонтактыВзаимодействий</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

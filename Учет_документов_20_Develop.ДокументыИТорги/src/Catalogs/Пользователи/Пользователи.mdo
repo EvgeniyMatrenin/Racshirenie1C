@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9d8d9f98-388d-4752-b983-19feb0ef0d81">
+  <producedTypes>
+    <objectType typeId="2adc6efd-28ab-4266-a09f-315475fdb951" valueTypeId="69317cc8-f843-4e19-87d7-5ad78f405c98"/>
+    <refType typeId="c6a768a7-5d63-42d0-b0bf-87c61c685685" valueTypeId="c561614f-d456-49c9-8b91-5ba2ee0fd4d9"/>
+    <selectionType typeId="621e8f99-54c0-4eb9-96ab-4f645f15a062" valueTypeId="2d9d8c2e-d3b1-4198-9d39-d35177e90ec4"/>
+    <listType typeId="f4a6b0d7-f3a2-49e4-b2a4-8485b52d77f8" valueTypeId="31ada140-04e8-4877-b546-611fcd0970be"/>
+    <managerType typeId="3bce4e0a-6a25-4646-bf79-c917d38053b2" valueTypeId="c9c1fc60-cc77-4a3e-94c0-caa0d40e0dce"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <comment>АПК:413 - №744.2.1.1 Допустимо не отключать историю выбора, так как она используется, а переопределение отбора фиксированное, то есть служебные и недействительные пользователи в нее не попадут, но если как-то попали, то это не является проблемой</comment>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

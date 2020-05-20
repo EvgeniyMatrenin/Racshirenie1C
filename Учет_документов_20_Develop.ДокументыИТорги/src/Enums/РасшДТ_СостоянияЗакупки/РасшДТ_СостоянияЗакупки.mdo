@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd7ed4d6-cf4d-424a-b04d-739fbfbd54e2">
+  <producedTypes>
+    <refType typeId="ad15ea5d-5fc7-419b-aec6-9cc70e6e6b59" valueTypeId="96562b2a-68e0-4e18-b1b5-5c2b5072b702"/>
+    <listType typeId="8d543719-9989-4f36-8382-3155283316ea" valueTypeId="56ab65eb-acfd-428a-abb5-9a6e424452d1"/>
+    <managerType typeId="6f6b9953-004b-4d9a-ae18-fc98507cc4bf" valueTypeId="dd9872c4-ae71-4599-a71f-e431fc451fbe"/>
+  </producedTypes>
+  <name>РасшДТ_СостоянияЗакупки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния закупки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="51ffe144-7d25-4efb-b7dc-04bdca78d242">
+    <name>Новая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8a96cd36-8037-422c-9340-3f94ef3f998e">
+    <name>ГубинуНеНравится</name>
+    <synonym>
+      <key>ru</key>
+      <value>Губину Д. Н. не нравится</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="76e670ae-7aa5-47ad-aebd-c4b6fa952c5f">
+    <name>ЗапросилиРазъясненияДокументации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запросили разъяснения документации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="28dbd7f4-0321-44bf-8860-df648fb5c93f">
+    <name>Пропускаем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пропускаем</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c4d56a38-31bf-4b99-87a0-abf7cedd271c">
+    <name>ПодаемДокументы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подаем документы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b5680d24-6776-4237-9675-c31a9149cad5">
+    <name>ЗаявкаПодана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка подана</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="be9d2408-f301-4a11-a36e-747365c5b3eb">
+    <name>ЖдёмИтоговыйПротокол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ждём итоговый протокол</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0a3739ed-564d-49a4-a81b-af2c3f24f1b4">
+    <name>ПодалиЖалобуВ1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подали жалобу в 1С</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e34028c5-fe6c-44ee-937c-347ac7226205">
+    <name>ПроигралиТорги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проиграли торги</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d6069799-1adf-48fb-82c3-df96b10371d6">
+    <name>ОплатаОбеспечения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата обеспечения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eb43a56a-f145-44ff-af4d-2bd43d71afd8">
+    <name>НадоПодписатьКонтракт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Надо подписать контракт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f9c7a556-8f9f-443f-95ee-101ce41c9ff5">
+    <name>ПодписаниеКонтрактаКлиентом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписание контракта клиентом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="30cac9fa-5bc9-48a4-addf-c42a6fc3c7da">
+    <name>ВнесениеКонтрактаВБазу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внесение контракта в базу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cbe5a437-32c9-416c-9793-a1078a083361">
+    <name>ВыигралиТорги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выиграли торги</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a4e97a15-2609-4c44-82b3-4a8de1b66c17">
+    <name>ПодалиЖалобуВУФАС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подали жалобу в УФАС</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

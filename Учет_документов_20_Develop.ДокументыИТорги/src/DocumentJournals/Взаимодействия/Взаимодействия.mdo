@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c04c95c5-d157-4d89-a91d-2bb3de4a85f2">
+  <producedTypes>
+    <selectionType typeId="b782a68d-fa4c-4203-9910-88b05bb96921" valueTypeId="d75af9e2-9104-4763-84a1-0f1378e52339"/>
+    <listType typeId="b2c81729-9872-4031-a924-d0680c855308" valueTypeId="3e7137ac-1922-4777-9010-743bd100b92e"/>
+    <managerType typeId="b003f6e5-55cc-4d6c-b617-19a4cb15c09d" valueTypeId="e6e5e1bd-4a2b-4021-8268-1991955b1f21"/>
+  </producedTypes>
+  <name>Взаимодействия</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentJournalExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DocumentJournal>
