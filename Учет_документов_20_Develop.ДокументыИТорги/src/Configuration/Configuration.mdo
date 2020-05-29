@@ -45,6 +45,7 @@
   </languages>
   <subsystems>Subsystem.РасшДТ_АРМ</subsystems>
   <commonPictures>CommonPicture.РасшДТ_АРМ</commonPictures>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
   <catalogs>Catalog.РасшДТ_СпособыЗакупки</catalogs>
   <catalogs>Catalog.РасшДТ_ВидыПлощадокДляТоргов</catalogs>
