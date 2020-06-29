@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f25ed830-a052-48d1-ac59-7715368767a0">
+  <name>РасшДТ_Логистика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логистика</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.РасшДТ_ОтправкаПочты</content>
+  <content>Document.РасшДТ_ВедомостьПередачиДокументов</content>
+  <content>Report.РасшДТ_КомуОтвезлиДокументы</content>
+  <content>Report.РасшДТ_КомуОтвезлиПодарки</content>
+  <content>DocumentJournal.Взаимодействия</content>
+</mdclass:Subsystem>

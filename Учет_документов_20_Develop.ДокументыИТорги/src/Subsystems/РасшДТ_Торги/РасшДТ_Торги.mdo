@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="620044a4-db3f-4b12-b24a-4e281a7efd3b">
+  <name>РасшДТ_Торги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Торги</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.РасшДТ_ТОРГИ</content>
+  <content>Report.РасшДТ_КаковаНашаДоля</content>
+  <content>Report.РасшДТ_КаковаНашаДоляДиаграмма</content>
+  <content>Report.РасшДТ_ТоргиВРаботе</content>
+  <content>Report.РасшДТ_КаковаСитуацияСоСтоимостьюЧасаНаТоргах</content>
+  <subsystems>НСИ</subsystems>
+</mdclass:Subsystem>

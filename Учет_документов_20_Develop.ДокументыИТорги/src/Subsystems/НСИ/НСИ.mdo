@@ -14,6 +14,5 @@
   <content>Catalog.РасшДТ_ВидыПлощадокДляТоргов</content>
   <content>Catalog.РасшДТ_СпособыЗакупки</content>
   <content>Catalog.РасшДТ_НашиСотрудники</content>
-  <content>Catalog.СтроковыеКонтактыВзаимодействий</content>
-  <parentSubsystem>Subsystem.РасшДТ_АРМ</parentSubsystem>
+  <content>DataProcessor.ЗагрузкаДанныхИзФайла</content>
 </mdclass:Subsystem>

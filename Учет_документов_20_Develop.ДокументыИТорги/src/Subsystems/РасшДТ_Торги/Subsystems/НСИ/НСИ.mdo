@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1406f09-3936-434a-a1ed-b7f4b78af677">
+  <name>НСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>НСИ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.РасшДТ_СпособыЗакупки</content>
+  <content>Catalog.РасшДТ_ВидыПлощадокДляТоргов</content>
+  <content>Catalog.РасшДТ_РегионыОказанияУслуг</content>
+  <content>Catalog.РасшДТ_Конкуренты</content>
+  <content>Catalog.РасшДТ_НашиСотрудники</content>
+  <content>Catalog.РасшДТ_Клиенты</content>
+  <content>Enum.РасшДТ_СостоянияЗакупки</content>
+  <content>Enum.РасшДТ_УсловияОказанияКонсультаций</content>
+  <content>Enum.РасшДТ_ПричиныПроигрышаТоргов</content>
+  <content>InformationRegister.РасшДТ_ТоргиВРаботе</content>
+  <content>InformationRegister.РасшДТ_ДанныеОСтоимостиЧасаНаТоргах</content>
+  <content>AccumulationRegister.РасшДТ_ОборотыПоТоргам</content>
+  <parentSubsystem>Subsystem.РасшДТ_Торги</parentSubsystem>
+</mdclass:Subsystem>
