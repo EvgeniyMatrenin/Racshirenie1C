@@ -7,5 +7,6 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.РасшДТ_ЗадачаИВариантыРешения</content>
   <subsystems>НСИ</subsystems>
 </mdclass:Subsystem>

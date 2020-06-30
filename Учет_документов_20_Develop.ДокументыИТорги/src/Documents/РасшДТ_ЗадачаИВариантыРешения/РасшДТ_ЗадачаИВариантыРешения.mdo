@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ceef46de-1854-43da-9c61-d5020692582b">
+  <producedTypes>
+    <objectType typeId="ab6691c0-8c5c-4e48-924c-0b05834127f5" valueTypeId="598af49b-d7c2-4100-8011-8d11a5c965fa"/>
+    <refType typeId="8559f1e3-a9b2-4f7c-ba6e-646ca79b451d" valueTypeId="be2c411e-41da-4b86-8237-920824ef0266"/>
+    <selectionType typeId="a64ad050-67ab-4825-8600-fb6dc83ccc95" valueTypeId="203257c4-9923-419c-9659-50813ff0994f"/>
+    <listType typeId="1677fec8-0eea-4b57-980d-2656ae2bb4d8" valueTypeId="0745ea93-9e9d-4476-9d70-7dbcdda29d10"/>
+    <managerType typeId="a9efdecd-6b0e-4868-9e08-2a6830c0d176" valueTypeId="dd39f348-0854-4a8a-a554-b6a08a4970a5"/>
+  </producedTypes>
+  <name>РасшДТ_ЗадачаИВариантыРешения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задача и варианты решения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РасшДТ_ЗадачаИВариантыРешения.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="2be4406b-88d9-40e4-9f49-177a34b112da">
+    <name>ЗаголовокЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовок задачи</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="244d58f5-6340-4935-8331-8ab7984164a5">
+    <name>ОписаниеЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание задачи</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="b06dd5ce-eb78-4717-9b2a-0d232499eb6a">
+    <producedTypes>
+      <objectType typeId="651c5a99-1fee-4ae1-9f5d-6af65c886db1" valueTypeId="e82f7ec8-fb60-43d3-b83c-8f53e4be354b"/>
+      <rowType typeId="68e9ad78-5706-4830-a0a2-b468164d10cd" valueTypeId="091de0ed-2d2c-4547-807e-1c193f7b1897"/>
+    </producedTypes>
+    <name>ПредложенияПоставщиков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предложения поставщиков</value>
+    </synonym>
+    <attributes uuid="93bb5390-4640-4858-8053-1658aae5ad3f">
+      <name>Поставщик</name>
+      <synonym>
+        <key>ru</key>
+        <value>Поставщик</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РасшДТ_Поставщики</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="87c0a1a1-4a87-4ca5-b5db-4be899ac3ef2">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c122e6ed-5483-4a4c-8c8a-5a4eee561ca9">
+      <name>Сроки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сроки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>15</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="87819765-63cc-465b-9f7c-25aba4e3d14b">
+      <name>ДополнительнаяИнформация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дополнительная информация</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
