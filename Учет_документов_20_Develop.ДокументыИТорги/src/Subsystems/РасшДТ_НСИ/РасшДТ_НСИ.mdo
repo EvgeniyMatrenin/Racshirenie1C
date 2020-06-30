@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="866fa54e-afd5-46e2-896a-a889ac80b89e">
-  <name>НСИ</name>
+  <name>РасшДТ_НСИ</name>
   <synonym>
     <key>ru</key>
     <value>НСИ</value>
@@ -15,4 +15,6 @@
   <content>Catalog.РасшДТ_СпособыЗакупки</content>
   <content>Catalog.РасшДТ_НашиСотрудники</content>
   <content>DataProcessor.ЗагрузкаДанныхИзФайла</content>
+  <content>Catalog.РасшДТ_Поставщики</content>
+  <content>Catalog.РасшДТ_ВидыДеятельности</content>
 </mdclass:Subsystem>

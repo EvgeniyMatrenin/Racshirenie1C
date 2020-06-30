@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f57f3b1-9340-4095-b06a-ecd622550287">
+  <name>РасшДТ_Маркетинг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркетинг</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <subsystems>НСИ</subsystems>
+</mdclass:Subsystem>

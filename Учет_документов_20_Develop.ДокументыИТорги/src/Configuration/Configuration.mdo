@@ -45,7 +45,8 @@
   </languages>
   <subsystems>Subsystem.РасшДТ_Логистика</subsystems>
   <subsystems>Subsystem.РасшДТ_Торги</subsystems>
-  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.РасшДТ_НСИ</subsystems>
+  <subsystems>Subsystem.РасшДТ_Маркетинг</subsystems>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
   <catalogs>Catalog.РасшДТ_СпособыЗакупки</catalogs>
@@ -56,6 +57,8 @@
   <catalogs>Catalog.РасшДТ_НашиСотрудники</catalogs>
   <catalogs>Catalog.РасшДТ_Клиенты</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.РасшДТ_Поставщики</catalogs>
+  <catalogs>Catalog.РасшДТ_ВидыДеятельности</catalogs>
   <documents>Document.РасшДТ_ТОРГИ</documents>
   <documents>Document.РасшДТ_ОтправкаПочты</documents>
   <documents>Document.РасшДТ_ВедомостьПередачиДокументов</documents>

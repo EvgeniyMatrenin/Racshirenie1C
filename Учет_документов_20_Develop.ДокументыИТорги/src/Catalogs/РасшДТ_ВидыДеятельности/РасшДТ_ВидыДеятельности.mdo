@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6885f53e-27c7-4ffa-b6f2-c8b6443746ad">
+  <producedTypes>
+    <objectType typeId="a47f8a1a-5a57-417f-b205-2f5cb40e828c" valueTypeId="6188edbb-3914-47cf-a2f1-665f2050a91a"/>
+    <refType typeId="cb252917-42c9-4d09-b1e8-e947c04e745a" valueTypeId="0f0c4898-2350-45e9-9f6b-286f9344b772"/>
+    <selectionType typeId="3ec3f549-f6d8-4b85-ac00-f3898d1675b0" valueTypeId="0e0a7950-e770-442e-8b9c-b5cd4dee1854"/>
+    <listType typeId="ff5e0558-e42f-4bc0-8dbd-be042f508745" valueTypeId="5fc9b8d1-f912-46d8-ba3e-ca1c6d7fbd76"/>
+    <managerType typeId="2551d429-5726-4bf7-aff4-7129410100a1" valueTypeId="5048e83d-d7e2-4bf7-a919-f53dd0da4e2e"/>
+  </producedTypes>
+  <name>РасшДТ_ВидыДеятельности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды деятельности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РасшДТ_ВидыДеятельности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.РасшДТ_ВидыДеятельности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
