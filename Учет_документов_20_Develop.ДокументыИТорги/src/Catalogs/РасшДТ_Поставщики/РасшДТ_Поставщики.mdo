@@ -35,30 +35,6 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="cca54213-2a44-4694-93a5-8f8cf702eb52">
-    <name>ИНН</name>
-    <synonym>
-      <key>ru</key>
-      <value>ИНН</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </type>
-    <format>
-      <key>ru</key>
-      <value>ЧГ=0</value>
-    </format>
-    <editFormat>
-      <key>ru</key>
-      <value>ЧГ=0</value>
-    </editFormat>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="db9d7be6-647a-4977-b81a-4dd55af10b45">
     <name>ВидДеятельности</name>
     <synonym>
@@ -86,60 +62,49 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="2e2c9c41-0dd0-4b26-beef-433c0ba9e57a">
-    <producedTypes>
-      <objectType typeId="338ed667-b606-47ae-97bc-8c32131e5f2b" valueTypeId="b3426533-c81a-48d8-8dfe-15ac438ae938"/>
-      <rowType typeId="5a1ac95f-0537-4072-b95c-259fba52ae31" valueTypeId="ef3d0421-d085-42cb-b09d-a90a9d614360"/>
-    </producedTypes>
-    <name>Контакты</name>
+  <attributes uuid="8566bb65-6fce-434b-834e-19a218199b90">
+    <name>Телефоны</name>
     <synonym>
       <key>ru</key>
-      <value>Контакты</value>
+      <value>Телефоны</value>
     </synonym>
-    <attributes uuid="0123ccbc-fd2d-4211-b771-f1d2ced75a6d">
-      <name>ФИО</name>
-      <synonym>
-        <key>ru</key>
-        <value>Ф.И.О</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>50</length>
-        </stringQualifiers>
-      </type>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="62698708-d301-4e07-a5e6-df44e840f6c8">
-      <name>Телефон</name>
-      <synonym>
-        <key>ru</key>
-        <value>Телефон</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>25</length>
-        </stringQualifiers>
-      </type>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="59a21632-31ac-4153-bc40-994627ab05e2">
-      <name>Почта</name>
-      <synonym>
-        <key>ru</key>
-        <value>Почта</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>25</length>
-        </stringQualifiers>
-      </type>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a5b7f1b0-25f0-409a-a09d-5c0e08e092e0">
+    <name>Почты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1cd52009-aad2-4ea5-b283-fcad273dd324">
+    <name>ДополнительнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительная информация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

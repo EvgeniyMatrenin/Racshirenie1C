@@ -78,6 +78,36 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="2ebb9c5e-67b2-4f3a-a49f-a41371e33d6d">
+      <name>Телефоны</name>
+      <synonym>
+        <key>ru</key>
+        <value>Телефоны</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="04bea5f8-8eda-45d4-97b3-2125aa66f487">
+      <name>Почты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Почты</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="87c0a1a1-4a87-4ca5-b5db-4be899ac3ef2">
       <name>Цена</name>
       <synonym>
