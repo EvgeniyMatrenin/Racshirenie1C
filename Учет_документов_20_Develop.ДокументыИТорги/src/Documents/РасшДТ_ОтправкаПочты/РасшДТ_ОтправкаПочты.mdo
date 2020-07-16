@@ -246,6 +246,51 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <tabularSections uuid="25882c79-9282-497f-b5f3-fb245c18288a">
+    <producedTypes>
+      <objectType typeId="14c7bef6-a817-4614-b9df-33efbea903cd" valueTypeId="d1ec8348-58ba-4e72-a105-4bd3bf5b4778"/>
+      <rowType typeId="58b0bb75-5b82-4887-aad6-e925fdec3571" valueTypeId="54993f88-fa13-4e92-85b7-5de4fc4ef552"/>
+    </producedTypes>
+    <name>ПолучениеДенег</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение денег</value>
+    </synonym>
+    <attributes uuid="d5e699c3-62b4-43df-8ef5-63fdf6ec590f">
+      <name>ДатаПолученияДенег</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата получения денег</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2f51d46b-4a9f-44bf-a72f-b988a09e566d">
+      <name>ПолученнаяСумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Полученная сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <templates uuid="55d0c0b0-8b30-449d-aa11-fef13aa05831">
     <name>ОтчетОРасходеСредств</name>
   </templates>
